@@ -185,10 +185,13 @@ module.exports = configure(function (/* ctx */) {
 
         // Windows only
         // win32metadata: { ... }
+        platform: 'win32'
+        
       },
 
       builder: {
         // https://www.electron.build/configuration/configuration
+     
 
         appId: 'quasar-practice'
       }
